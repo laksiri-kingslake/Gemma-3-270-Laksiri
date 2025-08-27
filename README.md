@@ -8,7 +8,7 @@ source jupyter-env/bin/activate
 pip install jupyter
 
 ```
-1. To run in terminal
+2. To run in terminal
 ```bash
 # run
 nohup python3 gemma_3_270_laksiri.py > output.log 2>&1 &
@@ -27,6 +27,13 @@ kill <pid> # 31905
 nvidia-smi
 ```
 
+3. Run Jupyter Notebook
+```bash
+jupyter notebook
+
+# Opens a browser at http://localhost:8888
+# You can open/create .ipynb files there.
+```
 
 ## Reference
 - [I pre-trained Gemma3 270M from scratch](https://www.youtube.com/watch?v=bLDlwcl6hbA)
