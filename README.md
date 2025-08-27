@@ -35,6 +35,14 @@ jupyter notebook
 # You can open/create .ipynb files there.
 ```
 
+4. AWS Instance Details
+
+- Select your AMI: Deep Learning OSS Nvidia Driver AMI GPU PyTorch 2.7 (Ubuntu 22.04)
+- Select instance type: g4dn.2xlarge
+- Select Storage: 100 GB
+- Under Advanced details → Purchasing option, check **Request Spot Instance**.
+- Then launch → this is often the easiest way.
+
 ## Reference
 - [I pre-trained Gemma3 270M from scratch](https://www.youtube.com/watch?v=bLDlwcl6hbA)
 
