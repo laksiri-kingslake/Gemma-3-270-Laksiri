@@ -1,6 +1,13 @@
 # Gemma 3 270M Implementation
 
 ## Instructions
+1. install jupitor
+```bash
+python3 -m venv jupyter-env
+source jupyter-env/bin/activate
+pip install jupyter
+
+```
 1. To run in terminal
 ```bash
 # run
